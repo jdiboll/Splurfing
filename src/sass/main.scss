@@ -3,3 +3,15 @@
 // Turn on freq used libraries
 // @import 'normalize-css/normalize';
 // @import 'font-awesome/scss/font-awesome';
+
+* {
+	text-decoration: none;
+	list-style: none;
+}
+body {
+	padding-top: 70px;
+}
+.navbar-brand img {
+	height: 40px;
+	width: 30px;
+}
