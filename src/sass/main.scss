@@ -63,6 +63,7 @@ body {
 .main-nav ul {
 	//max-height: 25px;
 	padding: 0;
+	margin-bottom: 0;
 	background-color: #11191d;
 	display: flex;
 	flex-wrap: wrap;
@@ -75,12 +76,17 @@ body {
 	}
 		
 }
-.carousel {
-	width: 100%
-	height: 60px;
-	background-color: #dedecd;
-}
 
+.carousel-content {
+	color: black;
+	display: flex;
+	align-items: center;
+}
+#stressControl {
+	width: 100%;
+	height: auto;
+	padding: 50px;
+}
 
 
 
