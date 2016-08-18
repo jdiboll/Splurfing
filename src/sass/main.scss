@@ -61,12 +61,17 @@ body {
 	}
 }
 .main-nav ul {
+	//max-height: 25px;
+	padding: 0;
 	background-color: #11191d;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-around;
 	a {
 		color: #dddfda;
 		text-decoration: none;
+		margin-left: 15px;
+		margin-right: 15px;
 	}
 		
 }
