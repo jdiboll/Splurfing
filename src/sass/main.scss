@@ -77,7 +77,7 @@ body {
 		
 }
 
-.carousel-content {
+.carousel-inner {
 	color: black;
 	display: flex;
 	align-items: center;
@@ -87,6 +87,10 @@ body {
 	height: auto;
 	padding: 50px;
 }
+.mem-top {
+	display: inline;
+	vertical-align: top;
+}
 .learning {
 	background-color: #6a686a;
 	//width: 90%;
@@ -95,11 +99,9 @@ body {
 	text-align: center;
 }
 .row {
-	margin-right: -30px;
-	margin-left: -30px;
+	margin-bottom: 40px;
+	padding-bottom: 10px;
 }
-
-
 
 
 
