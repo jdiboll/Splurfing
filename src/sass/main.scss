@@ -2,7 +2,7 @@
 
 // Turn on freq used libraries
  @import 'normalize-css/normalize';
-// @import 'font-awesome/scss/font-awesome';
+ @import 'font-awesome/scss/font-awesome';
 
 * {
 	text-decoration: none;
@@ -109,6 +109,7 @@ nav {
 	height: auto;
 	padding: 50px;
 }
+
 .inst-images {
 	//display: flex;
 	//justify-content: center;
