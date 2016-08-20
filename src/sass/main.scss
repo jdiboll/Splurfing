@@ -11,6 +11,10 @@
 body {
 	padding-top: 70px;
 }
+h6 {
+	text-align: center;
+}
+
 @media (min-width: 768px) {
 	.navbar .navbar-nav {
 		display: inline-block;
@@ -22,9 +26,10 @@ body {
 	}
 }
 .navbar-fixed-top {
-	background-color: #ffffff;
-	height: 70px;
+	//background-color: #ffffff;
+	min-height: 70px;
 	border: none;
+	z-index: 2;
 }
 
 .navbar-brand img {
@@ -47,7 +52,7 @@ nav {
 	.navbar-toggle {margin: 8px 15px 8px 0;
 					padding: 4px 5px;
 				}
-	height: 45px;
+	min-height: 45px;
 	a {font-size: 14px;
 		padding-bottom: 15px !important;
 		padding-top: 10px !important;
@@ -94,15 +99,41 @@ nav {
 		
 }
 
-.carousel-inner {
+.carousel-slide {
 	color: black;
 	display: flex;
-	align-items: center;
+	flex-direction: column;
 }
 #stressControl {
 	width: 100%;
 	height: auto;
 	padding: 50px;
+}
+.inst-images {
+	//display: flex;
+	//justify-content: center;
+	padding-bottom: 30px;
+	
+}
+.row-1 {
+	display: flex;
+	justify-content: center;
+	//padding: 5px;
+	img {
+		padding: 5px;
+	}
+}
+.row-2 {
+	display: flex;
+	justify-content: center;
+	//padding: 5px;
+	img {
+		padding: 5px;
+	}
+}
+
+.class-wrapper, .instructor-wrapper p {
+	text-align: center;
 }
 .mem-top {
 	display: inline;
