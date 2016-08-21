@@ -26,7 +26,6 @@ h6 {
 	}
 }
 .navbar-fixed-top {
-	//background-color: #ffffff;
 	min-height: 70px;
 	border: none;
 	z-index: 2;
@@ -103,11 +102,14 @@ nav {
 	color: black;
 	display: flex;
 	flex-direction: column;
+	//height: 266px;
 }
 #stressControl {
 	width: 100%;
 	height: auto;
 	padding: 50px;
+}
+.carousel-content {
 }
 .carousel-controls {
 	text-align: center;
@@ -116,8 +118,6 @@ nav {
 }
  .icon-wrapper {
  	background-color: #ebebeb;
- 	//margin-left: 50px;
- 	//margin-right: 50px;
  	padding: 50px;
  	li {
  		display: block;
@@ -141,8 +141,7 @@ nav {
 
 .inst-images {
 	padding-bottom: 30px;
-	
-}
+	}
 
 .class-wrapper, .instructor-wrapper p {
 	text-align: center;
@@ -151,25 +150,22 @@ nav {
 	display: inline;
 	vertical-align: top;
 }
-.learning {
-	background-color: #6a686a;
-	margin: 0 auto;
-	margin-bottom: 45px;
-	text-align: center;
-}
+
 .link-wrapper  {
 	text-align: center;
-
-
 }
 .row {
-	//margin-bottom: 40px;
+
 	padding-bottom: 3px;
 	a {
 		text-align: center;
 	}
-
 }
+form {
+	width: 420px;
+	margin: 0 auto;
+}
+
 
 
 
