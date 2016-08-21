@@ -10,6 +10,10 @@
 }
 body {
 	padding-top: 70px;
+	font-family: 'Montserrat', sans-serif;
+
+
+
 }
 h6 {
 	text-align: center;
@@ -26,14 +30,27 @@ h6 {
 	}
 }
 .navbar-fixed-top {
+	background-color: #2c3e50;
 	min-height: 70px;
 	border: none;
 	z-index: 2;
 }
-
+.navbar-inverse .navbar-brand  {
+	color: #ffffff;
+	&:hover {
+		color: #15a1ff;
+	}
+}
 .navbar-brand img {
 	height: 40px;
 	width: 30px;
+	padding-right: 5px;
+}
+.navbar-inverse .navbar-nav>li>a {
+	color: #ffffff;
+	&:hover {
+		color: #15a1ff;
+	}
 }
 nav {
 	.navbar-brand {font-size: 30px;}
@@ -57,12 +74,15 @@ nav {
 		padding-top: 15px !important;
 	}
 }
+.navbar-right a {
+	margin-right: 20px;
+}
 .landing-image {
 	background-image: url('../images/landingimage.jpg');
 	width: 100%;
 	color: #fafafa;
 	background-size: cover;
-	padding-top: 90px;
+	padding-top: 120px;
 	text-align: center;
 	height: 80vh;
 	h2 {
@@ -83,7 +103,7 @@ nav {
 	}
 }
 .main-nav ul {
-	padding: 0;
+	padding: 15px;
 	margin-bottom: 0;
 	background-color: #11191d;
 	display: flex;
@@ -116,8 +136,10 @@ nav {
 	width: 300px;
 	margin: 0 auto;
 }
- .icon-wrapper {
+.class-wrapper {
  	background-color: #ebebeb;
+	}
+ .icon-wrapper {
  	padding: 50px;
  	li {
  		display: block;
@@ -146,13 +168,20 @@ nav {
 .class-wrapper, .instructor-wrapper p {
 	text-align: center;
 }
-.membership {
-	display: inline;
-	vertical-align: top;
-}
+ .membership button {
+ 	background-color: #e42e28;
+ 	color: #ffffff;
+ 	border: none;
+ 	border-radius: 4px;
+ 	
+ }
 
 .link-wrapper  {
 	text-align: center;
+	background-color: #67809f;
+	h6 {
+		color: #ffffff;
+	}
 }
 .row {
 
@@ -162,7 +191,7 @@ nav {
 	}
 }
 form {
-	width: 420px;
+	width: 450px;
 	margin: 0 auto;
 }
 
