@@ -109,6 +109,11 @@ nav {
 	height: auto;
 	padding: 50px;
 }
+.carousel-controls {
+	text-align: center;
+	width: 300px;
+	margin: 0 auto;
+}
  .icon-wrapper {
  	background-color: #ebebeb;
  	//margin-left: 50px;
@@ -154,12 +159,15 @@ nav {
 }
 .link-wrapper  {
 	text-align: center;
-	
+
 
 }
 .row {
 	//margin-bottom: 40px;
 	padding-bottom: 3px;
+	a {
+		text-align: center;
+	}
 
 }
 
