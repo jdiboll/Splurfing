@@ -181,25 +181,51 @@ nav {
 	padding-top: 65px;
 	p {
 		 background-color: #eaeff3;
-		 padding: 60px 0 50px 0;
+		 //position: absolute;
+		 padding: 90px 0 50px 0;
 
 	}
 }
 
 .inst-images {
-	padding-bottom: 30px;
+	margin-bottom: -40px;
+	position: relative;
+
 	
 	}
 
 .class-wrapper, .instructor-wrapper p {
 	text-align: center;
 }
+.nonvalue {
+
+	header {
+	border-top: 20px solid #eaeff3;
+	}
+}
+.value {
+	
+	header {
+	border-top: 20px solid #2c3e50;
+}
+}
+.membership {
+	padding: 50px 0 50px 0;
+	h6 {
+		padding-bottom: 20px;
+	}
+}
+
+
  .membership button {
  	background-color: #e42e28;
  	color: #ffffff;
  	border: none;
  	border-radius: 4px;
  	
+ }
+ .perks ul {
+ 	padding: 0;
  }
 
 .link-wrapper  {
